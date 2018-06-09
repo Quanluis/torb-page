@@ -1,18 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
 }
+
  
 .main-header {
     padding-top: 10px;
     background-size: cover;
-    background-color: black;
     height: 700px;
-    background-image: url('./images/torb.jpg')
-}
-
-.quoteDiv {
-   background-color: black;
-
+    max-width: auto;
+    background: url('./images/torb.jpg') no-repeat center;
 }
 
 h1 {
